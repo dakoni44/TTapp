@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Charts</string>
+    <string name="app_name">TTapp</string>
     <string name="drawer1">Alerts</string>
     <string name="drawer2">Economic Calendar</string>
     <string name="drawer3">Currency Calculator</string>

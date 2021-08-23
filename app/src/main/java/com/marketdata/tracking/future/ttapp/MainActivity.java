@@ -65,39 +65,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         parseXML();
 
 
-      //  tabLayout=findViewById(R.id.tab_layout);
-       // viewPager2=findViewById(R.id.view_pager2);
-
-       /* FragmentManager fm=getSupportFragmentManager();
-        fragmentAdapter=new FragmentAdapter(fm, getLifecycle());
-        viewPager2.setAdapter(fragmentAdapter);*/
-
-       /* tabLayout.addTab(tabLayout.newTab().setText("Market Overview"));
-        tabLayout.addTab(tabLayout.newTab().setText("Currencies"));
-
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                viewPager2.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
-
-        viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-            @Override
-            public void onPageSelected(int position) {
-                tabLayout.selectTab(tabLayout.getTabAt(position));
-            }
-        });*/
 
         setSupportActionBar(toolbar);
 
@@ -177,8 +144,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     case R.id.screener:
                         return true;
                     case R.id.news:
-                      //  startActivity(new Intent(MainActivity.this,NewsActivity.class));
-                       // overridePendingTransition(0,0);
+                        startActivity(new Intent(MainActivity.this,NewsActivity.class));
+                        overridePendingTransition(0,0);
                         return true;
                 }
                 return false;
@@ -277,7 +244,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public void onItemClick(int position) {
-     /*   Intent intent=new Intent(MainActivity.this,SymbolDetailsActivity.class);
+        Intent intent=new Intent(MainActivity.this,SymbolDetailsActivity.class);
         intent.putExtra("name", symbols.get(position).getName());
         intent.putExtra("tickerSymbol", symbols.get(position).getTickerSymbol());
         intent.putExtra("isin", symbols.get(position).getIsin());
@@ -294,6 +261,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         intent.putExtra("change", symbols.get(position).getChange());
         intent.putExtra("changeP", symbols.get(position).getChangePercent());
       //  Toast.makeText(this, ""+symbols.get(position).getId(), Toast.LENGTH_SHORT).show();
-        startActivity(intent);*/
+        startActivity(intent);
     }
 }

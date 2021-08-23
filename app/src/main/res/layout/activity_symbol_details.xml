@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SymbolDetailsActivity"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvTickerSymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvName"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvIsin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvTickerSymbol"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvIsin"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvStockExchangeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvCurrency"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvDecorativeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvStockExchangeName"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvDecorativeName"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvLast"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvLow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvHigh"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvBid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvLow"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvAsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvBid"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvAsk"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvVolume"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvDateTime"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvChangePercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvChange"
+        android:text="AAAAAAAAA"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
