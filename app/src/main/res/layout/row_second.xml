@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:background="@android:color/black">
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:text="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvBid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:textColor="#FFFFFF"
+        android:text="312312313"
+        android:ems="4"
+        android:lines="1"
+        android:gravity="end"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvAsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@id/tvBid"
+        android:textColor="#FFFFFF"
+        android:text="312312313"
+        android:ems="4"
+        android:lines="1"
+        android:gravity="end"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:textColor="#FFFFFF"
+        android:ems="4"
+        android:lines="1"
+        android:gravity="end"
+        android:text="1561.4332312321"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvLow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/tvHigh"
+        android:textColor="#FFFFFF"
+        android:ems="4"
+        android:lines="1"
+        android:gravity="end"
+        android:text="1561.4332312321"
+        android:textSize="16sp" />
+
+</RelativeLayout>

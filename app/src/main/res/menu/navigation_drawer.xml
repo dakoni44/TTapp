@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/alerts"
+            android:title="Alerts"
+            android:icon="@drawable/alerts"/>
+
+        <item
+            android:id="@+id/economicCalendar"
+            android:title="Economic Calendar"
+            android:icon="@drawable/calendar" />
+
+        <item
+            android:id="@+id/currencyCalculator"
+            android:title="Currency Calculator"
+            android:icon="@drawable/calculator"/>
+
+        <item
+            android:id="@+id/search"
+            android:title="Search"
+            android:icon="@drawable/search"/>
+
+    </group>
+
+
+        <item android:title="ACCOUNT">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/settings"
+                    android:title="Settings"
+                    android:icon="@drawable/settings"/>
+
+                <item
+                    android:id="@+id/info"
+                    android:title="Information"
+                    android:icon="@drawable/info"/>
+
+                </group>
+            </menu>
+        </item>
+
+
+
+
+</menu>

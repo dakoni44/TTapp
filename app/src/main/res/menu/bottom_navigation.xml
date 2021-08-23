@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/markets"
+            android:title="Markets"
+            android:icon="@drawable/markets"/>
+
+        <item
+            android:id="@+id/watchlist"
+            android:title="Watchlist"
+            android:icon="@drawable/watchlist"/>
+
+        <item
+            android:id="@+id/portfolio"
+            android:title="Portfolios"
+            android:icon="@drawable/portfolio"/>
+
+        <item
+            android:id="@+id/screener"
+            android:title="Screener"
+            android:icon="@drawable/screener"/>
+
+        <item
+            android:id="@+id/news"
+            android:title="News"
+            android:icon="@drawable/news"/>
+
+
+
+</menu>

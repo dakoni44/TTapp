@@ -1,0 +1,633 @@
+<Result xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-teletrader-com:mb" errorNumber="0">
+    <NewsList pageLength="40" currentPage="1" totalPages="25" totalRecords="1000" nextRecordID="48267543">
+        <NewsArticle id="48272866" author="Breaking the News / VP" dateTime="2019-06-07T12:12:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Russia wants to deploy satellites especially for IoT ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>132761</ImageID>
+                        <ImageSource>EPA-EFE / TASS / HOST PHOTO</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48272820" author="Breaking the News / NP" dateTime="2019-06-07T12:08:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ US Navy claims Russian ship made 'unsafe' manoeuvre ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146466</ImageID>
+                        <ImageSource>EPA / FRANCIS R. MALASIG</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48272663" author="Breaking the News / MA" dateTime="2019-06-07T11:59:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ US stocks rise premarket despite trade worries ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146465</ImageID>
+                        <ImageSource>EPA-EFE / JUSTIN LANE</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48272571" author="Breaking the News / IT" dateTime="2019-06-07T11:50:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ US on pace to become top LNG exporter – IEA ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146464</ImageID>
+                        <ImageSource>EPA-EFE / CLEMENS BILAN</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48272197" author="Breaking the News / MA" dateTime="2019-06-07T11:15:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ OPEC+ output cuts likely to be extended by 2020 - minister ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146463</ImageID>
+                        <ImageSource> EPA-EFE / CHRISTIAN BRUNA</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48272090" author="Breaking the News / IT" dateTime="2019-06-07T11:05:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ BoE: Inflation outlook slips to 3.1% ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146462</ImageID>
+                        <ImageSource>EPA / ANDY RAIN</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="EU0009653088" exchangeID="1322"/>
+                        <Symbol isin="GB0031973075" exchangeID="1322"/>
+                        <Symbol isin="GB0002893930" exchangeID="1322"/>
+                        <Symbol isin="GB0009534727" exchangeID="1322"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271883" author="Breaking the News / BM" dateTime="2019-06-07T10:47:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Kremlin: Russia won't change stance over UK demands ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146460</ImageID>
+                        <ImageSource>EPA / SERGEI KARPUKHIN</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271881" author="Breaking the News / IT" dateTime="2019-06-07T10:47:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Trade war takes offshore yuan to seven-month low ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146459</ImageID>
+                        <ImageSource>EPA / HOW HWEE YOUNG</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="US23129Y2028" exchangeID="1442"/>
+                        <Symbol isin="XC000A0AENR9" exchangeID="1442"/>
+                        <Symbol isin="EU000A1RRRX4" exchangeID="1442"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271875" author="Breaking the News / NP" dateTime="2019-06-07T10:46:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Corbyn: New Tory leader to seek no-deal Brexit ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146461</ImageID>
+                        <ImageSource>EPA-EFE / ANDY RAIN</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271675" author="Breaking the News / VP" dateTime="2019-06-07T10:31:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ US stocks rise in premarket after Dow's four days of gains ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146458</ImageID>
+                        <ImageSource>EPA / JUSTIN LANE</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="US2605661048" exchangeID="1171"/>
+                        <Symbol isin="US6311011026" exchangeID="1174"/>
+                        <Symbol isin="US78378X1072" exchangeID="1305"/>
+                        <Symbol isin="EU0009652759" exchangeID="1322"/>
+                        <Symbol isin="GB0031973075" exchangeID="1322"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271505" author="Breaking the News / SS" dateTime="2019-06-07T10:18:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Huawei OS to come out as early as August - report ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146410</ImageID>
+                        <ImageSource>EPA-EFE / KITH SEREY</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271504" author="Breaking the News / NP" dateTime="2019-06-07T10:18:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Russia, S. Arabia to coordinate oil output cut decisions - Novak ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146457</ImageID>
+                        <ImageSource>EPA-EFE / STEPHANIE LECOCQ</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="XC0009677409" exchangeID="1131"/>
+                        <Symbol isin="XC000A0G9CM8" exchangeID="1131"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271502" author="Breaking the News / IT" dateTime="2019-06-07T10:17:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Oil surges as Saudi, Iraq support quota extension ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146455</ImageID>
+                        <ImageSource>EPA / LISI NIESNER </ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="XC000A0G9CM8" exchangeID="1131"/>
+                        <Symbol isin="XC0009677409" exchangeID="1131"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271484" author="Breaking the News / VP" dateTime="2019-06-07T10:15:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Russia's RDIF CEO: Huawei ban is unfair ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146456</ImageID>
+                        <ImageSource>EPA-EFE / EMILIO NARANJO</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271282" author="Breaking the News / NP" dateTime="2019-06-07T09:55:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Russia accuses US ship of nearly causing collision in South China Sea ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146454</ImageID>
+                        <ImageSource>EPA-EFE / JEROME FAVRE</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271279" author="Breaking the News / VP" dateTime="2019-06-07T09:55:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ S. Korea: Huawei's 5G not threat to natl security ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146453</ImageID>
+                        <ImageSource>EPA / YONHAP</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271257" author="Breaking the News / IT" dateTime="2019-06-07T09:52:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ UK to limit overdrafts to protect consumers ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146451</ImageID>
+                        <ImageSource>EPA / ANDY RAIN</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271223" author="Breaking the News / SS" dateTime="2019-06-07T09:49:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Failure of FCA-Renault merger bad for France - Di Maio ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146452</ImageID>
+                        <ImageSource>EPA-EFE / GIUSEPPE LAMI</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="NL0010877643" exchangeID="1103"/>
+                        <Symbol isin="FR0000131906" exchangeID="1300"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48271046" author="Breaking the News / NP" dateTime="2019-06-07T09:31:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ UK annual house price growth up to 5.2% in May ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146450</ImageID>
+                    </PicTT>
+                </Tag>
+                <Tag position="2">
+                    <Properties>
+                        <MarketImpact>positive</MarketImpact>
+                    </Properties>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270915" author="Breaking the News / VP" dateTime="2019-06-07T09:21:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Bitcoin hits $8,000 ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146449</ImageID>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270844" author="Breaking the News / IT" dateTime="2019-06-07T09:18:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ European shares advance in early trade ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>142733</ImageID>
+                        <ImageSource>EPA / WILL OLIVER</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="GB0001383545" exchangeID="1310"/>
+                        <Symbol isin="DE0008469008" exchangeID="1135"/>
+                        <Symbol isin="FR0003500008" exchangeID="1190"/>
+                        <Symbol isin="EU0009652759" exchangeID="1322"/>
+                        <Symbol isin="XC0009655157" exchangeID="2068"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270785" author="Breaking the News / SS" dateTime="2019-06-07T09:15:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Russia mulls sending more military support to Venezuela ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146448</ImageID>
+                        <ImageSource>EPA-EFE / RAUL MARTINEZ</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270526" author="Breaking the News / BM" dateTime="2019-06-07T08:56:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Europe higher premarket amid data, Italy concerns ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146446</ImageID>
+                        <ImageSource>EPA / MAURITZ ANTIN</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270488" author="Breaking the News / IT" dateTime="2019-06-07T08:53:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Bundesbank slashes GDP growth, inflation outlook ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146447</ImageID>
+                        <ImageSource>EPA / DREW ANGERER</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="EU0009652759" exchangeID="1322"/>
+                        <Symbol isin="EU0009653088" exchangeID="1322"/>
+                        <Symbol isin="EU0009652627" exchangeID="1322"/>
+                        <Symbol isin="EU0009654078" exchangeID="1322"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270356" author="Breaking the News / VP" dateTime="2019-06-07T08:42:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Iran: Criticism beyond JCPOA will break deal ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146016</ImageID>
+                        <ImageSource>EPA-EFE / STRINGER</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270206" author="Breaking the News / SS" dateTime="2019-06-07T08:31:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Sanofi appoints Paul Hudson as new CEO ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146445</ImageID>
+                        <ImageSource>EPA-EFE / YOAN VALAT</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="FR0000120578" exchangeID="1300"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270045" author="Breaking the News / IT" dateTime="2019-06-07T08:17:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Asian equities trade flat to higher during China's break ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146443</ImageID>
+                        <ImageSource>EPA / JEROME FAVRE</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="XC0009692440" exchangeID="1034"/>
+                        <Symbol isin="XC0009655157" exchangeID="2068"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48270042" author="Breaking the News / NP" dateTime="2019-06-07T08:16:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Walmart to launch InHome delivery service ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146444</ImageID>
+                        <ImageSource>EPA-EFE / CJ GUNTHER</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="US9311421039" exchangeID="1151"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48269887" author="Breaking the News / MA" dateTime="2019-06-07T08:04:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ European markets higher premarket, trade in focus ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146439</ImageID>
+                        <ImageSource>EPA / TAL COHEN</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48269865" author="Breaking the News / IT" dateTime="2019-06-07T08:03:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Oil gains as Mexico tries to avoid US import tariffs ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146440</ImageID>
+                        <ImageSource>EPA-EFE / CLEMENS BILAN</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="XC000A0G9CM8" exchangeID="1131"/>
+                        <Symbol isin="XC0009677409" exchangeID="1131"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48269864" author="Breaking the News / SS" dateTime="2019-06-07T08:03:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ German trade surplus narrows to €17B in April ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146442</ImageID>
+                        <ImageSource>EPA-EFE / KIMIMASA MAYAMA</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="EU0009652759" exchangeID="1322"/>
+                        <Symbol isin="EU0009653088" exchangeID="1322"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48269810" author="Breaking the News / VP" dateTime="2019-06-07T08:01:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ German industrial production declines 1.9% in April ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146441</ImageID>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48269576" author="Breaking the News / IT" dateTime="2019-06-07T07:43:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Rebels kill two Ukrainian soldiers near Novoluhanske ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146437</ImageID>
+                        <ImageSource>EPA-EFE / ALEXANDER ERMOCHENKO </ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48269569" author="Breaking the News / NP" dateTime="2019-06-07T07:41:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Novartis names new pharma unit head ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146436</ImageID>
+                        <ImageSource>EPA-EFE / PATRICK STRAUB</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="CH0012005267" exchangeID="1154"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48269348" author="Breaking the News / VP" dateTime="2019-06-07T07:14:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ Google thinks Huawei ban is danger to US natl security - report ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146435</ImageID>
+                        <ImageSource>EPA-EFE / RUNGROJ YONGRIT</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="US02079K1079" exchangeID="1150"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48268138" author="Breaking the News / KP" dateTime="2019-06-07T06:44:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ US to sell arms to Taiwan, angers China - report ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146434</ImageID>
+                        <ImageSource> EPA-EFE / RITCHIE B. TONGO</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48267793" author="Breaking the News / KP" dateTime="2019-06-07T06:15:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ EU to back another Brexit delay - report ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146433</ImageID>
+                        <ImageSource>EPA-EFE / FACUNDO ARRIZABALAGA</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48267707" author="Breaking the News / DJ" dateTime="2019-06-07T05:49:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ IBM to cut around 1,700 jobs - report ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146432</ImageID>
+                        <ImageSource>EPA / MATTHIAS BALK</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="3">
+                    <LinkedSymbols>
+                        <Symbol isin="US4592001014" exchangeID="1151"/>
+                    </LinkedSymbols>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48267601" author="Breaking the News / KP" dateTime="2019-06-07T05:00:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ DoJ rejects House call for census information ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>146431</ImageID>
+                        <ImageSource>EPA-EFE / MICHAEL REYNOLDS</ImageSource>
+                    </PicTT>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+        <NewsArticle id="48267563" author="Breaking the News / DJ" dateTime="2019-06-07T04:41:00" sourceName="TeleTrader">
+            <Headline>
+                <![CDATA[ I'll definitely get a deal with China - Trump ]]>
+            </Headline>
+            <Tags>
+                <Tag position="0">
+                    <PicTT>
+                        <ImageID>136728</ImageID>
+                        <ImageSource>EPA-EFE / MICHAEL REYNOLDS</ImageSource>
+                    </PicTT>
+                </Tag>
+                <Tag position="1">
+                    <Notifications>
+                        <NotificationDateTime>2019-06-07 04:41:21</NotificationDateTime>
+                    </Notifications>
+                </Tag>
+            </Tags>
+        </NewsArticle>
+    </NewsList>
+</Result>

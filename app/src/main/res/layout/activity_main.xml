@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chart_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.marketdata.tracking.future.ttapp.MainActivity">
+
+
+        <androidx.drawerlayout.widget.DrawerLayout
+                android:id="@+id/drawer_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fitsSystemWindows="true"
+                tools:openDrawer="start">
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/nav_drawer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:headerLayout="@layout/header"
+                app:menu="@menu/navigation_drawer"
+                android:theme="@style/NavigationTheme"
+                android:layout_gravity="start"
+                android:background="@color/colorPrimary"
+                app:itemTextColor="@android:color/white"
+                app:itemIconTint="@android:color/white"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/appbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/AppTheme.AppBarOverlay">
+
+                <!-- Toolbar is a standard toolbar for use within application content. -->
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:navigationIcon="@drawable/menu_drawer"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    app:contentInsetStartWithNavigation="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bahatoolbar"
+                        android:scaleType="fitXY" />
+
+                </androidx.appcompat.widget.Toolbar>
+
+                </com.google.android.material.appbar.AppBarLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlSort"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@android:color/black"
+                android:layout_below="@id/appbar">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="@android:color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"/>
+
+                <ImageView
+                    android:id="@+id/ivA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_a"
+                    android:layout_toRightOf="@id/tvName"
+                    android:visibility="gone"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:layout_marginLeft="2dp"/>
+
+                <ImageView
+                    android:id="@+id/ivZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_z"
+                    android:layout_toRightOf="@id/tvName"
+                    android:layout_marginTop="8dp"
+                    android:visibility="gone"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:layout_marginLeft="2dp"/>
+
+                <ImageView
+                    android:id="@+id/ivAa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_aa"
+                    android:layout_toRightOf="@id/tvName"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:layout_marginLeft="2dp"/>
+
+                <ImageView
+                    android:id="@+id/ivZz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_zz"
+                    android:layout_toRightOf="@id/tvName"
+                    android:layout_marginTop="8dp"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:layout_marginLeft="2dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chg %"
+                    android:textColor="@android:color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="240dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last"
+                    android:textColor="@android:color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"/>
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/rlSort"
+                />
+
+            </RelativeLayout>
+
+            </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/bottom_navigation"
+            android:fitsSystemWindows="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
