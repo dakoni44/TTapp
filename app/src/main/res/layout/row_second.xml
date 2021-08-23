@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="50dp"
     android:orientation="horizontal"
-    android:padding="2dp"
     android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentTop="true"
+        android:background="#404040"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#404040"
+        />
     <TextView
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
@@ -21,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="220dp"
+        android:layout_marginTop="4dp"
         android:textColor="#FFFFFF"
         android:text="312312313"
         android:ems="4"
@@ -45,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_marginRight="5dp"
+        android:layout_marginTop="4dp"
         android:textColor="#FFFFFF"
         android:ems="4"
         android:lines="1"

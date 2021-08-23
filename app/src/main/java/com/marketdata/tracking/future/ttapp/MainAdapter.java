@@ -2,6 +2,7 @@ package com.marketdata.tracking.future.ttapp;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,14 +13,16 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+import java.util.Random;
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ImageViewHolder> {
 
     Context mContext;
     private List<Symbol> mdata;
     private OnItemClickListener listener;
-    String p;
-    double n;
+    String p, lasts;
+    double n, lastd, value;
+    Random random=new Random();
 
     public interface OnItemClickListener {
         void onItemClick(int position);
@@ -73,6 +76,44 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ImageViewHolde
         if(symbol.getLast()!=null) {
             holder.tvLast.setText(symbol.getLast());
         }
+
+        android.os.Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if(symbol.getLast()!=null) {
+                    lasts = symbol.getLast();
+                    lastd = Double.parseDouble(lasts);
+
+                    value = random.nextDouble() * (lastd*1.2 - lastd*0.8) + lastd*0.8;
+                    if(value>lastd){
+                        holder.tvLast.setTextColor(Color.GREEN);
+                        holder.tvLast.animate().setDuration(2000).withEndAction(new Runnable() {
+                            @Override
+                            public void run() {
+                                // set color back to normal
+                                holder.tvLast.setTextColor(Color.WHITE);
+                            }
+                        }).start();
+                    }else if(value<lastd){
+                        holder.tvLast.setTextColor(Color.RED);
+                        holder.tvLast.animate().setDuration(2000).withEndAction(new Runnable() {
+                            @Override
+                            public void run() {
+                                // set color back to normal
+                                holder.tvLast.setTextColor(Color.WHITE);
+                            }
+                        }).start();
+                    }
+                    holder.tvLast.setText(String.format("%.2f",value));
+
+
+                }else if(symbol.getLast()==null){
+
+                }
+            }
+        },(random.nextInt(28) + 3)*1000);
+
         holder.tvName.setText(symbol.getName());
 
     }
