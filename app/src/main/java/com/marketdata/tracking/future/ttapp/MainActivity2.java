@@ -16,6 +16,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -45,6 +46,7 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
 
     ArrayList<Symbol> symbols=new ArrayList<>();
 
+    SwipeRefreshLayout swipeRefreshLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +63,14 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
         ivZ=findViewById(R.id.ivZ);
         ivAa=findViewById(R.id.ivAa);
         ivZz=findViewById(R.id.ivZz);
+        swipeRefreshLayout=findViewById(R.id.srl);
+
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                swipeRefreshLayout.setRefreshing(false);
+            }
+        });
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
@@ -139,6 +149,13 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        int id=item.getItemId();
+
+        switch (id){
+            case R.id.about:
+                startActivity(new Intent(MainActivity2.this,InfoActivity.class));
+                break;
+        }
         return true;
     }
 

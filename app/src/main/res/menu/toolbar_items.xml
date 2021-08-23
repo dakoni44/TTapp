@@ -16,7 +16,7 @@
 
     <item
         android:id="@+id/chng"
-        android:title="Chng %, Last" />
+        android:title="Chg %, Last" />
 
     <item
         android:id="@+id/bidask"

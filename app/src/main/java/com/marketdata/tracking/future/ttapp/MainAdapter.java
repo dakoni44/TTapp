@@ -66,7 +66,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ImageViewHolde
                 holder.tvChange.setText("0.00%");
             }
         } catch (NumberFormatException e) {
-            Toast.makeText(mContext, "HAHAHHAHAH", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, ".......", Toast.LENGTH_SHORT).show();
         }
 
 

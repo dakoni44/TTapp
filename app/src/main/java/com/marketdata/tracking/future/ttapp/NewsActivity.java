@@ -78,6 +78,13 @@ public class NewsActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        int id=item.getItemId();
+
+        switch (id){
+            case R.id.about:
+                startActivity(new Intent(NewsActivity.this,InfoActivity.class));
+                break;
+        }
         return true;
     }
 

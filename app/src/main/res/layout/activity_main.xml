@@ -127,7 +127,7 @@
                     android:text="Chg %"
                     android:textColor="@android:color/white"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="240dp"/>
+                    android:layout_marginLeft="250dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,12 +140,20 @@
 
             </RelativeLayout>
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvMain"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@id/rlSort"
-                />
+                <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                    android:id="@+id/srl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/rlSort">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        />
+
+                </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
             </RelativeLayout>
 

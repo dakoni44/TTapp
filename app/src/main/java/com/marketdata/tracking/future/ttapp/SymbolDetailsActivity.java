@@ -1,11 +1,17 @@
 package com.marketdata.tracking.future.ttapp;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Random;
+
 public class SymbolDetailsActivity extends AppCompatActivity {
+
+    double  lastd, value, changePd,changed;
+    Random random=new Random();
 
     String name,change,last,bid,ask,high,low,tickerSymbol,isin,currency,stockExchangeName,decorativeName,volume,dateTime,changePercent;
     TextView tvName,tvChange,tvLast,tvBid,tvAsk,tvHigh,tvLow,tvTickerSymbol,tvIsin,tvCurrency,tvStockExchangeName,tvDecorativeName,tvVolume,tvDateTime,tvChangePercent;
@@ -64,8 +70,84 @@ public class SymbolDetailsActivity extends AppCompatActivity {
         tvDateTime.setText("Date and time: "+dateTime);
         tvChangePercent.setText("Change percent: "+changePercent);
 
+        if(changePercent!=null) {
+            changePd = Double.parseDouble(changePercent);
+            if (changePd > 0) {
+                tvChangePercent.setTextColor(Color.GREEN);
+                tvChangePercent.setText(String.format("Cahnge percent: +%.2f", changePd) + "%");
+            } else if (changePd < 0) {
+                tvChangePercent.setTextColor(Color.RED);
+                tvChangePercent.setText(String.format("Cahnge percent: %.2f", changePd) + "%");
+            } else if (changePd == 0) {
+                tvChangePercent.setTextColor(Color.WHITE);
+                tvChangePercent.setText(String.format("Cahnge percent: %.2f", 0.00) + "%");
+            }
+        }else if(changePercent==null){
+            tvChangePercent.setTextColor(Color.WHITE);
+            tvChangePercent.setText("Change percent: 0.00%");
+        }
 
-       // Toast.makeText(this, ""+id, Toast.LENGTH_SHORT).show();
+        if(change!=null) {
+            changed = Double.parseDouble(change);
+            if (changed > 0) {
+                tvChange.setTextColor(Color.GREEN);
+                tvChange.setText("Cahnge percent: "+ changed );
+            } else if (changed < 0) {
+                tvChange.setTextColor(Color.RED);
+                tvChange.setText("Cahnge percent: "+ changed );
+            } else if (changed == 0) {
+                tvChange.setTextColor(Color.WHITE);
+                tvChange.setText("Cahnge percent: "+ changed );
+            }
+        }else if(change==null){
+            tvChange.setTextColor(Color.WHITE);
+            tvChange.setText("Change percent: 0.00%");
+        }
+
+
+        Thread t = new Thread() {
+
+            @Override
+            public void run() {
+                try {
+                    while (!isInterrupted()) {
+                        Thread.sleep((random.nextInt(28) + 3)*1000);
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+
+                                lastd = Double.parseDouble(last);
+
+                                value = random.nextDouble() * (lastd*1.2 - lastd*0.8) + lastd*0.8;
+                                if(value>lastd){
+                                    tvLast.setTextColor(Color.GREEN);
+                                    tvLast.animate().setDuration(2000).withEndAction(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            // set color back to normal
+                                            tvLast.setTextColor(Color.WHITE);
+                                        }
+                                    }).start();
+                                }else if(value<lastd){
+                                    tvLast.setTextColor(Color.RED);
+                                    tvLast.animate().setDuration(2000).withEndAction(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            // set color back to normal
+                                            tvLast.setTextColor(Color.WHITE);
+                                        }
+                                    }).start();
+                                }
+                                tvLast.setText(String.format("Last: %.2f",value));
+
+                            }
+                        });
+                    }
+                } catch (InterruptedException e) {
+                }
+            }
+        };
+        t.start();
     }
 
 }
